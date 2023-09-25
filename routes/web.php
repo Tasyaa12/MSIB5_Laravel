@@ -23,7 +23,7 @@ Route::get('/', function () {
 });
 
 Route::get('/landing', [LandingController::class, 'index']);
-Route::get('/landing/profile', [ProfileController::class, 'index']);
+Route::get('/profile', [ProfileController::class, 'index']);
 
 // Resource Todo
 Route::resource('todo', TodoController::class);

@@ -11,11 +11,11 @@ class LandingController extends Controller
    */
   public function index()
   {
-    $name = 'Fulan';
-    $location = 'Indonesia';
+    $name = 'Tasya Safitri';
+    $univ = 'Universitas Bani Saleh';
 
     $data['name'] = $name;
-    $data['location'] = $location;
+    $data['univ'] = $univ;
 
     return view('landing/index', $data);
   }
